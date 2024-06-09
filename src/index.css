@@ -1,0 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT Bold", Gilroy;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection
+    {
+        color: rgb(232, 144, 47);
+    }
